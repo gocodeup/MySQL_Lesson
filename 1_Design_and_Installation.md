@@ -44,16 +44,17 @@ MySQL is even available to the Microsoft world!
 Packages
 
 Installing a package is very simple on most distributions of linux:
-Redhat/Rocky/Fedora:
- yum install mysql-server
- yum install mariadb-server
+- Redhat/Rocky/Fedora:
+   - yum install mysql-server
+   - yum install mariadb-server
+
 MySQL is the standard on RHEL6 installations, While on RHEL7 and on, the new standard is MariaDB.
 Remember, the package "mysql" is only the client. To install both the client AND server, always install the "mysql-server" package, as it has the client package "mysql" as a dependency
 
 # Lab Time!
 
-Install the necessary mariadb packages on servera. This includes at least packages mariadb and mariadb-server.
-Make sure to enable and start the mariadb daemon.
-Once complete, spend some time browsing http://dev.mysql.com or https://mariadb.com/kb/en/mariadb/documentation/
+- Install the necessary mariadb packages on servera. This includes at least packages mariadb and mariadb-server.
+- Make sure to enable and start the mariadb daemon.
+- Once complete, spend some time browsing http://dev.mysql.com or https://mariadb.com/kb/en/mariadb/documentation/
 
 [![continue](./images/continue.png)](./1_solution.md)
