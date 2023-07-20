@@ -15,3 +15,5 @@ Total download size: 22 M
 ln -s '/usr/lib/systemd/system/mariadb.service' '/etc/systemd/system/multi-user.target.wants/mariadb.service'
 
 [root@mysql ~]# systemctl start mariadb
+
+[![continue](./images/continue.png)](./1_solution.md)
