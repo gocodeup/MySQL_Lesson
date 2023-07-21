@@ -44,3 +44,5 @@
     | 21 | Paul     | NULL   | Verhoeven      | NULL   | 
     +----+----------+--------+----------------+--------+
     21 rows in set (0.00 sec)
+
+[![continue](./images/back.jpeg)](./5_INSERT_and_SOURCE.md)
