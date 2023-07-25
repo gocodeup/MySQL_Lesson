@@ -54,6 +54,6 @@ SOURCE this database into MySQL
 
 Once imported, verify your database is there using a SHOW command, such as SHOW DATABASES;
 
-[![continue](./images/continue.png)](./5_Lab_Two.md)
-
 [![continue](./images/solution.png)](./5_solution_two.md)
+
+[![continue](./images/continue.png)](./6_SELECT.md)
