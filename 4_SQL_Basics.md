@@ -1,6 +1,6 @@
 # SQL Language Basics
 
-SQL
+**SQL**
 
 The Structured Query Language is a powerful tool for interfacing with RDBMS’s.
 SQL is not the most straightforward language, though, as the syntax is strict, and the wording a little foreign for first time users.
@@ -9,8 +9,8 @@ Note: In SQL, it is best practice to capitalize reserved words and functions, su
 
  - Reserved words: SHOW, SELECT, INSERT, DELETE, DROP, CREATE
  - Functions: PASSWORD(), NOW(), DATE(), USER()
-
-Using the Documentation
+#
+**Using the Documentation**
 
 Now is a good time to learn about the vast and excellent documentation available for the MySQL and MariaDB systems.
 
@@ -19,8 +19,8 @@ https://mariadb.com/kb/en/mariadb/documentation/
 http://dev.mysql.com/doc/
 
 Peruse at your leisure the documentation and familiarize yourself with the layout of the site. Maybe read up on the mysql or mysqladmin command.
-
-Using SHOW
+#
+**Using SHOW**
 
 The SHOW command is extremely useful for gathering information from the database server. There is an entire page of documentation based around the information you can request.
 
@@ -28,16 +28,16 @@ http://dev.mysql.com/doc/refman/5.5/en/show.html
 
 Some Common SHOW commands include PROCESSLIST, ENGINES, SLAVE STATUS, DATABASES, TABLES, etc.
 ![continue](./images/SHOW.png)
-
-The CREATE Command
+#
+**The CREATE Command**
 
 CREATE is one of the data definition language (DDL) statements. DDL statements manipulate database structures. Other DDL statements include ALTER, DROP, and TRUNCATE.
 
 https://mariadb.com/kb/en/innodb-online-ddl-overview/
 
 CREATE can be used to create a number of different RDBMS entities. A few examples would be DATABASE, TABLE, VIEW, INDEX, etc.
-
-Using CREATE DATABASE
+#
+**Using CREATE DATABASE**
 
 We first need to create a database container for our Movie Collection project:
 
@@ -47,8 +47,8 @@ We first need to create a database container for our Movie Collection project:
 
 The name is case sensitive, so we shall use capital letters to denote each word.
 Database naming is a personal or organizational policy decision. MySQL truly does not care what the name is, so long as it follows the rules laid out in the documentation “Schema Object Names”.
-
-Using a Database
+#
+**Using a Database**
 
 If connecting to a MySQL/MariaDB server without specifying a database, no database is used.
 
@@ -77,8 +77,8 @@ Now that the MovieCollection database has been created, we need to let the mysql
       MariaDB [MovieCollection]> exit
       [root@mysql ~]# mysql MovieCollection
       MariaDB [MovieCollection]>
-
-  CREATE TABLE
+#
+**CREATE TABLE**
 
 Now that a working database exists, we can begin to add tables to that database
 Remember that "CREATE TABLE" and "CREATE DATABASE" are both DDL statements, but control different structures.
@@ -90,8 +90,6 @@ Generic syntax:
         column_name column_type_and_parameters,
         ...
      );
-
-  MOVIE Table
 
   This is a sample CREATE TABLE command.
   
@@ -119,8 +117,8 @@ VARCHAR(): This means a value that is alphanumeric, up to () characters long
 
 DATETIME: This field tells the database that the value of this entry must be a date string. If not specified, it will use the current date and time.
 
-
-Using the DROP Statement
+#
+**Using the DROP Statement**
 
 When a table, database or any other structure in the RDBMS needs to be completely removed, this is done with the DROP statement:
 
