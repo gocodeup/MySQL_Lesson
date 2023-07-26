@@ -1,17 +1,17 @@
 # Design
 
-MySQL Architecture
+**MySQL Architecture**
 
 MySQL/MariaDB follows a traditional client/server model. The server (mysqld) is in charge of managing all of the data while the clients (mysql, mysqladmin) use the data.
 MySQL/MariaDB uses a multi-threaded design as opposed to a multi-process design. This allows for much more efficent access to system resources.
 
-CPU Considerations
+**CPU Considerations**
 
 MySQL is optimized for a 64-bit architecture, but a 32-bit version is available for legacy hardware.
 64-bit CPU's allow far better access to resources such as memory, caches, etc.
 4-8 processing units(cores or physical CPU's)- more is not always better because of concurrency contention issues, though as MySQL improves, this guideline might change.
 
-Memory Considerations
+**Memory Considerations**
 
 MySQL performance is directly related to the amount of memory available. MySQL will cache frequently used data in memory, greatly reducing disk access.
 The amount of RAM required is highly dependent on several factors:
@@ -19,7 +19,7 @@ The amount of RAM required is highly dependent on several factors:
   - Server Configuration
   - Database size and structure
 
-Storage Considerations
+**Storage Considerations**
 
 MySQL is a very I/O intensive application, and ideally uses high performing, redundant storage.
 Due to varied database server needs (cost, performance, reliability,etc), here are some common storage options:
@@ -27,21 +27,22 @@ Due to varied database server needs (cost, performance, reliability,etc), here a
   - RAID10 storage on SAS/SATA hard drives, for high redundancy and performance
   - RAID10 storage on SSD hard drives, for extreme redundancy and performance
 
-OS Considerations
+**OS Considerations**
 
 The operating system should preferably be installed on some sort of RAID storage, and in a perfect world separate from the database RAID system.
 Ideally, you will be running MySQL in a Linux enviroment, but keep in mind there is a Windows version as well.
 As for flavor/version, there isn’t a terrible amount of concern here. Any popular distro should have no problems running MySQL.
 Care should be taken to ensure the database is properly started and stopped with the operating system.
 
-# Installation
+# 
+**Installation**
 
 The MySQL source code is available for download from http://dev.mysql.com/downloads/
 The MariaDB source code is available for download from https://downloads.mariadb.org/
 Additionally, most distributions of Linux maintain one or more packages for the MySQL system.
 MySQL is even available to the Microsoft world!
 
-Packages
+**Packages**
 
 Installing a package is very simple on most distributions of linux:
 - Redhat/Rocky/Fedora:
