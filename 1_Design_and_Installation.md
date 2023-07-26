@@ -9,7 +9,7 @@ MySQL/MariaDB uses a multi-threaded design as opposed to a multi-process design.
 
 MySQL is optimized for a 64-bit architecture, but a 32-bit version is available for legacy hardware.
 64-bit CPU's allow far better access to resources such as memory, caches, etc.
-4-8 processing units(cores or physical CPU's)- more is not always better because of concurrency contention issues, though as MySQL improves, this guideline might change.
+4 or more processing units(cores or physical CPU's).
 
 **Memory Considerations**
 
@@ -18,6 +18,8 @@ The amount of RAM required is highly dependent on several factors:
   - Queries
   - Server Configuration
   - Database size and structure
+
+The recommended amount is 8GB or more of RAM.
 
 **Storage Considerations**
 
