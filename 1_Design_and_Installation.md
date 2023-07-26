@@ -56,7 +56,7 @@ Remember, the package "mysql" is only the client. To install both the client AND
 
 # Lab Time!
 
-- Install the necessary mariadb packages on servera. This includes at least packages mariadb and mariadb-server.
+- Install the necessary mariadb packages. This includes at least packages mariadb and mariadb-server.
 - Make sure to enable and start the mariadb daemon.
 - Once complete, spend some time browsing http://dev.mysql.com or https://mariadb.com/kb/en/mariadb/documentation/
 
