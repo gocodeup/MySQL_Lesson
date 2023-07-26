@@ -1,6 +1,6 @@
 # Using INSERT and SOURCE
 
-Using INSERT
+**Using INSERT**
 
 Now that we have a database and some tables to work with, let’s start adding data! This is accomplished with the INSERT statement:
 
@@ -21,8 +21,8 @@ Example:
     INSERT INTO movie ( title, acquired ) VALUES ( 'Hackers', NOW() );
     
 This will add a new row to the table "movie", with the data "Hackers" being put into the column "title", and NOW(), a function that means the current time, being put into the column "acquired".
-
-Using the SOURCE Command
+#
+**Using the SOURCE Command**
 
 Imagine how tedious it would be to constantly have to type out every SQL query...That would take forever, and be prone to errors.
 Thankfully, there are a few better ways to accomplish this same goal, with much less effort
