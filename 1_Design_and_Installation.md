@@ -58,7 +58,6 @@ Remember, the package "mysql" is only the client. To install both the client AND
 
 You may switch to the root user to complete all labs in this lesson using sudo -i
 - Install the necessary mariadb packages. This includes at least packages mariadb and mariadb-server.
-- Make sure to enable and start the mariadb daemon.
 - Once complete, spend some time browsing http://dev.mysql.com or https://mariadb.com/kb/en/mariadb/documentation/
 
 [![continue](./images/continue.png)](./1_solution.md)
