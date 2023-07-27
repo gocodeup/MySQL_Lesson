@@ -1,7 +1,9 @@
 # Lab Solution
 
-- First, verify if your server is running, and start it if it is not running.
-  
+- First, enable and start your database.
+
+      [root@mysql ~]# systemctl enable mariadb  
+
       [root@mysql ~]# systemctl start mariadb
   
       [root@mysql ~]# mysql -u root
