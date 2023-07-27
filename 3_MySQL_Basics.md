@@ -36,7 +36,7 @@ In dire cases, sending SIGTERM to mysqld will also provide MySQL with notice and
 #
 **Connecting to MySQL Server**
 
-In a later lecture, we will discuss users and access control within MySQL. For the time being, we will be logging in to MySQL server with the default root account.
+Later in the lesson, we will discuss users and access control within MySQL. For the time being, we will be logging in to MySQL server with the default root account.
 
 To attach to the MySQL server, simply run:
 
