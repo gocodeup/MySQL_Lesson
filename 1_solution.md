@@ -1,6 +1,7 @@
 # Lab Solution
 
-    [root@mysql ~]# yum install mariadb-server
+    [admin@mysql ~]$ sudo -i
+    [root@mysql ~]# yum install mariadb-server -y
     Transaction Summary
     Install  1 Package  (+8 Dependent packages)
     Upgrade             ( 1 Dependent package)
