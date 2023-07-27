@@ -3,8 +3,8 @@
 **What are RDBMS's**
 
 RDBMS’s were developed decades ago to manage the underlying storage and organization for all of the information bits and their relationships.
-Examples include: MariaDB, MySQL, Oracle, Postgresql, mSQL, SQLServer
-There is even a special language that was invented to interact with relational databases, known as the Structured Query Language, or SQL. Most RDBMS’s implement some form of SQL. Further discussion of SQL to occur in a later lecture.
+Examples include: MariaDB, MySQL, Oracle, Postgresql, mSQL, SQLServer.
+There is even a special language that was invented to interact with relational databases, known as the Structured Query Language, or SQL. Most RDBMS’s implement some form of SQL. Further discussion of SQL is to come later in this lesson.
 
 **Data Relationships**
 
