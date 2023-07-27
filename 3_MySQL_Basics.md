@@ -54,6 +54,7 @@ Queries to a database server can be as simple or complex as needed. For example:
 
 # Lab Time!
 
+- Make sure to enable and start the mariadb daemon.
 - Start up your database, connect as root and try out the examples mentioned previously. What is the difference between ending a query with a semicolon or backslash G?
 - Try running “\h” or “\?”. Figure out how to exit from the mysql client, then shutdown your database. Verify you can no longer connect via the mysql client. Read the documentation for mysqladmin, then run “mysqladmin ping” and verify your server is shut down.
 - Start up your database once more and check that it’s running both with mysql and mysqladmin.
