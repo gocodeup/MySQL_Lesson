@@ -48,7 +48,7 @@ Make sure each row entered returns a "Query OK", and if you make a mistake, igno
 
 # Lab Time Two!
 
-Download the following file using wget as root: https://raw.githubusercontent.com/sabrinasirens/MySQL_Lesson/main/moviedb.sql
+Download the following file using wget as root: https://github.com/gocodeup/MySQL_Lesson/blob/main/moviedb.sql
 
 SOURCE this database into MySQL
 
